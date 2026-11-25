@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "vikuska-private-letter",
+  "main": "index.mjs",
+  "compatibility_date": "2026-11-25",
+  "assets": {"directory": "../dist", "binding": "ASSETS", "run_worker_first": true},
+  "durable_objects": {"bindings": [{"name": "EVENT_GATE", "class_name": "EventGate"}]},
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["EventGate"]}],
+  "observability": {"enabled": false}
+}
