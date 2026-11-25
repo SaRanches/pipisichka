@@ -9,3 +9,5 @@
 - worker dry-run с ASSETS и EVENT_GATE ранее прошёл.
 - В проекте нет полученных от владельца токенов; секреты бота должны быть установлены в Cloudflare.
 - Публикация и реальная доставка в Telegram пока ожидают авторизации Cloudflare и настройки секретов.
+
+Публикация: исходники загружены в SaRanches/pipisichka, GitHub Actions 45656961468 завершился успешно. Cloudflare подтвердил 100% трафика версии fceffec1-2137-4d43-975b-83b39d1b812b. URL: https://vikuska-private-letter.vikuska-letter.workers.dev. Проверка HTTPS пока не проходит: ERR_SSL_VERSION_OR_CIPHER_MISMATCH. Список secrets пуст; реальная доставка ожидает настройки владельца. Сайт нельзя считать полностью проверенным или готовым для передачи получателю.
